@@ -1,0 +1,20 @@
+{
+  "name": "stats-card",
+  "title": "Stats Card",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GitHub-Profile-Summary-Stats-Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "KasRoudra",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3",
+    "nodemon": "^2.0.15"
+  }
+}

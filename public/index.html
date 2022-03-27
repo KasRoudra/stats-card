@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/icons/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="GitHub-Profile-Stats-Card"
+      content="GitHub-Profile-Stats-Card"
+    />
+    <meta property="og:title" content="GitHub-Profile-Stats-Card App" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://kasroudra-stats-card.herokuapp.com/"
+    />
+    <meta name="og:image" content="/icons/desc.png" />
+    <meta
+      name="description"
+      content="Get github statistics in svg which can be used to be shown in github readme"
+      property="og:description"
+    />
+    <meta name="description" content="/icons/desc.png" property="og:image" />
+    <meta
+      name="keywords"
+      content="GitHub-Profile-Stats, Profile-Stats, GitHub-Stats, GitHub-Profile"
+      ,
+      GitHub-Profile-Stats-Card
+    />
+    <meta name="author" content="KasRoudra" />
+    <meta name="application-name" content="GitHub-Profile-Stats-Card" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kasroudra" />
+    <meta name="twitter:creator" content="@kasroudra" />
+    <meta name="twitter:title" content="GitHub-Profile-Stats-Card" />
+    <meta
+      name="twitter:description"
+      content="Get github statistics in svg which can be used shown in github readme"
+    />
+    <meta name="twitter:image" content="/icons/desc.png" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/icons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/icons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/icons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/icons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/icons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/icons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/icons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/icons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/icons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/icons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/icons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>GitHub Profile Summary Stats</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main>
+      <form id="form">
+        <div class="title"><h2>Enter your GitHub username</h2></div>
+        <div class="input"><input type="text" id="input" required /></div>
+        <div class="button">
+          <button id="button" type="submit" value="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+    <script>
+        window.onload = function(){
+            const form = document.querySelector("#form");
+            form.addEventListener("submit", (e) => {
+                e.preventDefault();
+                const input = document.querySelector("#input");
+                const username = input.value;
+               //location.assign("/svg.html?user="+username);
+               if (username) location.assign("/svg?user=" + username);
+            });
+        }
+    </script>
+  </body>
+</html>
