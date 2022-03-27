@@ -11,7 +11,7 @@
  - Enter your Github username and click submit
  - And boom! Your profile stat card is ready to be shown in your README
 
-#### Copy this code and replace with the username with your one
+#### Copy the following code and replace the username (kasroudra) with your one and then paste it in your profile's README.md
 
 ```
 [![stats-card](https://kasroudra-stats-card.herokuapp.com/svg?user=KasRoudra)](https://github.com/KasRoudra/stats-card)
