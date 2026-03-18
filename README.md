@@ -24,10 +24,10 @@
 ##### Currently, only two themes are available `normal` and `dark`
 
 ```
-[![stats-card](https://kasroudra-stats-card.herokuapp.com/svg?user=KasRoudra&theme=dark)](https://github.com/KasRoudra/stats-card)
+[![stats-card](https://stats-card.pages.dev/svg?user=KasRoudra&theme=dark)](https://github.com/KasRoudra/stats-card)
 ```
 
-[![stats-card](https://kasroudra-stats-card.herokuapp.com/svg?user=KasRoudra&theme=dark)](https://github.com/KasRoudra/stats-card)
+[![stats-card](https://stats-card.pages.dev/svg?user=KasRoudra&theme=dark)](https://github.com/KasRoudra/stats-card)
 
 
 ### Local Test
