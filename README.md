@@ -7,17 +7,17 @@
 
 ### Documentation
 
- - Visit this [website](https://kasroudra-stats-card.herokuapp.com)
+ - Visit this [website](https://stats-card.pages.dev)
  - Enter your Github username and click submit
  - And boom! Your profile stat card is ready to be shown in your README
 
 #### Copy the following code and replace the username (kasroudra) with your one and then paste it in your profile's README.md
 
 ```
-[![stats-card](https://kasroudra-stats-card.herokuapp.com/svg?user=KasRoudra)](https://github.com/KasRoudra/stats-card)
+[![stats-card](https://stats-card.pages.dev/svg?user=KasRoudra)](https://github.com/KasRoudra/stats-card)
 ```
 
-[![stats-card](https://kasroudra-stats-card.herokuapp.com/svg?user=KasRoudra)](https://github.com/KasRoudra/stats-card)
+[![stats-card](https://stats-card.pages.dev/svg?user=KasRoudra)](https://github.com/KasRoudra/stats-card)
 
 #### Theme
 
